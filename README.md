@@ -2,7 +2,7 @@
 This project is based on the original spot micro, which is known for its extreme stability, and wide range of tasks. It can perform duties from reconnaissance to weather reports, even military missions, and survey in places humans can't reach such as in a chemical disaster.The main aim, is 
 1. To first make it controllable on laptop or mobile
 2. To add AI into it, and make it perform long-range tasks all by itself, like, go to a particular area, and come back with artifacts, or even launch drones to make it reach the owner, with the artifacts.
-   Hence, it is a very smart tool for use during disasters, and wars. 
+   Hence, it is a very smart tool for use during disasters, and wars, or maybe archaelogical adventures.
 ## 💀WORK IN PROGRESS💀
 
 ### References/Bibliography
@@ -28,7 +28,7 @@ But, if you are just like me, and do not trust the makes of the other users as w
 First, The reason many people edited the original stl files, is because they wanted to use the best ttechnology available- First it was 
 1. Arduino Mega, the original model
 2. and then RPi and NVIDIA Jetson Nano
-3. and then ESP32 series
+3. and then ESP32 series.
 Second, I thought of using my favorite *ESP32 S3 DEVKITC N8R8 1 BOARD*, but, it only has basic capability, like face recognition, server creation, 802.11, and BLE.(But still, overwhelmingly strong than most esp32, and arduino board, no, all arduino boards).
 Third, What I did, for the first steps, I will be using esp32, but, later, I will be using RPi 0/3/4/5 b+ for the AI and automated control part(much later on, patience) Why not Jetson Nano? Because I dont trust it. It would be the first time I will be using it. I will still be listing all the options in the below table. ALL THE CAPS-LOCKED ITEMS ARE OPTIONAL, AND NOT INCLUDED IN MY DESIGN.
 
@@ -61,14 +61,14 @@ Screws:
 |Type      |Quantity      |
 |----------|--------------|
 | M5 x 15 |8|
-| M4 x 15 |40|
+| M4 x 20 |40|
 | M4 x 15 |8|
-| M4 x 15 |48|
-| M3 x 15 |4|
-| M3 x 15 |28|
-| M3 x 15 |16|
+| M4 nuts |48|
+| M3 x 20 |4|
+| M3 x 10 |28|
+| M3 nuts |16|
 | F625ZZ Flange ball Bearings |8|
-Totally, they cot some 500 rupees.
+Totally, they cot some 300-500 rupees.
 
 
 3d Prints:
@@ -84,6 +84,10 @@ Totally, they cot some 500 rupees.
 | Headquarters |1|
 | Computer Slab |1|
 
+
+The total size of the body turns out to be about 32cm(length) x 1ocm(width) x 7cm(height)
+the total size of each fully straight leg turns out to be about 5cm(length) x 3cm(width) x 30cm(height)
+Total robot size, when robot is at ease, in their original positions: 22cm(height) x 30cm(length) x 22cm(width)
 
 ### Step 3 - Code
 Pending...
