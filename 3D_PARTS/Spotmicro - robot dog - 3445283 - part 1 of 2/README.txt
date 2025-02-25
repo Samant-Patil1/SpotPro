@@ -1,1 +1,0 @@
-Spotmicro - robot dog by KDY0523 on Thingiverse: https://www.thingiverse.com/thing:3445283

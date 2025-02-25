@@ -1,1 +1,0 @@
-SpotMicro by bradprin on Thingiverse: https://www.thingiverse.com/thing:3761340
