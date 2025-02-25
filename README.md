@@ -81,5 +81,5 @@ Totally, they cot some 500 rupees.
 | Computer Slab |1|
 
 
-###Step 3 - Code
+### Step 3 - Code
 Pending...
