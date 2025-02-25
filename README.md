@@ -1,4 +1,8 @@
 # SPOTPRO
+This project is based on the original spot micro, which is known for its extreme stability, and wide range of tasks. It can perform duties from reconnaissance to weather reports, even military missions, and survey in places humans can't reach such as in a chemical disaster.The main aim, is 
+1. To first make it controllable on laptop or mobile
+2. To add AI into it, and make it perform long-range tasks all by itself, like, go to a particular area, and come back with artifacts, or even launch drones to make it reach the owner, with the artifacts.
+   Hence, it is a very smart tool for use during disasters, and wars. 
 ## 💀WORK IN PROGRESS💀
 
 ### References/Bibliography
