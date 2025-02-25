@@ -4,8 +4,8 @@
 ### References/Bibliography
 First of, instead of researching on this private project, I would like to request you to look into the resources I looked up into, 
 
-1. https://sites.google.com/view/senior-tech-project/   (I chose these guys, mainly because they listed down allt heir steps, with perfect details)
-2. https://spotmicroai.readthedocs.io/en/latest/        (The Official Ones)
+1. https://sites.google.com/view/senior-tech-project/   (I chose these guys, mainly because they listed down all their steps, with perfect details)
+2. https://spotmicroai.readthedocs.io/en/latest/        (The official ones)
 3. https://novaspotmicro.com/                           (They extended the original design, and added some rc features, and, umm-what not. They even added the holes for ports for robotic arms, I think)
 4. https://github.com/michaelkubina/SpotMicroESP32      (He editted the 3d models, to accomodate ESP32 DEVKITC)
 
@@ -64,6 +64,7 @@ Screws:
 | M3 x 15 |28|
 | M3 x 15 |16|
 | F625ZZ Flange ball Bearings |8|
+Totally, they cot some 500 rupees.
 
 
 3d Prints:
@@ -78,3 +79,7 @@ Screws:
 | Head |1|
 | Headquarters |1|
 | Computer Slab |1|
+
+
+###Step 3 - Code
+Pending...
