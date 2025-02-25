@@ -89,6 +89,7 @@ The total size of the body turns out to be about 32cm(length) x 1ocm(width) x 7c
 the total size of each fully straight leg turns out to be about 5cm(length) x 3cm(width) x 30cm(height)
 Total robot size, when robot is at ease, in their original positions: 22cm(height) x 30cm(length) x 22cm(width)
 Approximately, it will take 7-9 days to print all items, assuming all are left 24/7 no, 24/9. It consumes 300metres of 1.75mm filament, approx
+1 whole spool of prusament 1kg pla will be used, and prolly 1.25...
 
 ### Step 3 - Code
 Pending...
