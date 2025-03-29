@@ -35,23 +35,23 @@ Third, What I did, for the first steps, I will be using esp32, but, later, I wil
 
 | Item                    | Quantity | Description                                                                                                                   | Tested? | Current Price    | Done? |
 |-------------------------|----------|-------------------------------------------------------------------------------------------------------------------------------|---------|:-----------------|-------|
-| **ESP32-S3 DevKitC-1 N8R8**	| 1x  | A powerful MCU with WiFi + BLE, 47 GPIOs, and 14 capacitive touch sensors, ideal for IoT, robotics, and wireless projects.  | Yes     | ₹1460            | - [] |
-| **NVIDIA JETSON NANO**      | 1x  | A compact AI development board with a 128-core GPU, great for deep learning, robotics, and edge computing.                   | No      | ₹6000            | - [] |
-| **Raspberry Pi 0W/3/4/5**   | 1x  | A versatile SBC with WiFi + Bluetooth, GPIO support, and a quad-core processor, perfect for IoT and automation.              | Yes     | ₹6200            | - [] |
-| **ARDUINO MEGA ORIGINAL**   | 1x  | A microcontroller with 54 digital I/O pins, ideal for hardware-focused projects, robotics, and automation, but lacks WiFi/BLE. | No      | ₹3200            | - [] |
-| **PCA9685 Servo Controller** | 2x  | A PWM driver that controls up to 16 servos using I2C, ideal for robotic arms and motion control applications.                | Yes     | 2 x ₹228 = ₹456   | - [] |
-| **MG996R Servo Motor**      | 12x | A high-torque servo motor with metal gears, commonly used in robotics, RC cars, and precise movement applications.           | Yes     | 12 x ₹309 = ₹3708 | - [] |
-| **LCD1602 16X2 Display**    | 1x  | A 16x2 character LCD module for displaying text, often used in embedded systems and Arduino projects.                         | No      | ₹160             | - [] |
-| **3.7V 2800mAh Battery**    | 2x  | A rechargeable lithium-ion battery suitable for powering small electronics, IoT devices, and DIY projects.                    | No      | 2 x ₹681 = ₹1362  | - [] |
-| **Rocker Switch**           | 1x  | A simple on/off switch used to control power supply in circuits and electronic devices.                                      | Yes     | ₹20              | - [] |
-| **SSD1306 0.96 inch Display** | 1x  | A small OLED display with I2C/SPI interface, ideal for compact projects requiring graphical output.                           | No      | ₹165             | - [] |
-| **RPi Camera Module**       | 1x  | A high-resolution camera module compatible with Raspberry Pi, used for computer vision, surveillance, and photography.       | No      | ₹1280            | - [] |
-| **ESP32 Camera Module**     | 1x  | A camera module based on ESP32 with WiFi support, suitable for IoT-based surveillance and image processing.                   | No      | ₹725             | - [] |
-| **HC-SR04 Ultrasonic Sensor** | 2x  | A distance measurement sensor using ultrasonic waves, commonly used in robotics and obstacle detection.                      | Yes     | 2 x ₹59 = ₹118    | - [] |
-| **MPU-6050 Gyro Sensor**    | 1x  | A 6-axis IMU sensor with accelerometer and gyroscope for motion tracking and stabilization applications.                     | No      | ₹200             | - [] |
-| **HC-05 Bluetooth Module**  | 1x  | A Bluetooth module for wireless serial communication, commonly used in Arduino and IoT projects.                             | Yes     | ₹257             | - [] |
-| **PIR Motion Sensor**       | 2x  | A passive infrared sensor used to detect motion, commonly implemented in security and automation systems.                    | No      | 2 x ₹59 = ₹118    | - [] |
-| **RCWL-0516 Microwave Radar Sensor** | 2x | A motion detection sensor that uses **Doppler radar** instead of infrared, ideal for smart lighting and security systems.   | No      | 2 x ₹35 = ₹70     | - [] |
+| **ESP32-S3 DevKitC-1 N8R8**	| 1x  | A powerful MCU with WiFi + BLE, 47 GPIOs, and 14 capacitive touch sensors, ideal for IoT, robotics, and wireless projects.  | Yes     | ₹1460            | - [ ] |
+| **NVIDIA JETSON NANO**      | 1x  | A compact AI development board with a 128-core GPU, great for deep learning, robotics, and edge computing.                   | No      | ₹6000            | - [ ] |
+| **Raspberry Pi 0W/3/4/5**   | 1x  | A versatile SBC with WiFi + Bluetooth, GPIO support, and a quad-core processor, perfect for IoT and automation.              | Yes     | ₹6200            | - [ ] |
+| **ARDUINO MEGA ORIGINAL**   | 1x  | A microcontroller with 54 digital I/O pins, ideal for hardware-focused projects, robotics, and automation, but lacks WiFi/BLE. | No      | ₹3200            | - [ ] |
+| **PCA9685 Servo Controller** | 2x  | A PWM driver that controls up to 16 servos using I2C, ideal for robotic arms and motion control applications.                | Yes     | 2 x ₹228 = ₹456   | - [ ] |
+| **MG996R Servo Motor**      | 12x | A high-torque servo motor with metal gears, commonly used in robotics, RC cars, and precise movement applications.           | Yes     | 12 x ₹309 = ₹3708 | - [ ] |
+| **LCD1602 16X2 Display**    | 1x  | A 16x2 character LCD module for displaying text, often used in embedded systems and Arduino projects.                         | No      | ₹160             | - [ ] |
+| **3.7V 2800mAh Battery**    | 2x  | A rechargeable lithium-ion battery suitable for powering small electronics, IoT devices, and DIY projects.                    | No      | 2 x ₹681 = ₹1362  | - [ ] |
+| **Rocker Switch**           | 1x  | A simple on/off switch used to control power supply in circuits and electronic devices.                                      | Yes     | ₹20              | - [ ] |
+| **SSD1306 0.96 inch Display** | 1x  | A small OLED display with I2C/SPI interface, ideal for compact projects requiring graphical output.                           | No      | ₹165             | - [ ] |
+| **RPi Camera Module**       | 1x  | A high-resolution camera module compatible with Raspberry Pi, used for computer vision, surveillance, and photography.       | No      | ₹1280            | - [ ] |
+| **ESP32 Camera Module**     | 1x  | A camera module based on ESP32 with WiFi support, suitable for IoT-based surveillance and image processing.                   | No      | ₹725             | - [ ] |
+| **HC-SR04 Ultrasonic Sensor** | 2x  | A distance measurement sensor using ultrasonic waves, commonly used in robotics and obstacle detection.                      | Yes     | 2 x ₹59 = ₹118    | - [ ] |
+| **MPU-6050 Gyro Sensor**    | 1x  | A 6-axis IMU sensor with accelerometer and gyroscope for motion tracking and stabilization applications.                     | No      | ₹200             | - [ ] |
+| **HC-05 Bluetooth Module**  | 1x  | A Bluetooth module for wireless serial communication, commonly used in Arduino and IoT projects.                             | Yes     | ₹257             | - [ ] |
+| **PIR Motion Sensor**       | 2x  | A passive infrared sensor used to detect motion, commonly implemented in security and automation systems.                    | No      | 2 x ₹59 = ₹118    | - [ ] |
+| **RCWL-0516 Microwave Radar Sensor** | 2x | A motion detection sensor that uses **Doppler radar** instead of infrared, ideal for smart lighting and security systems.   | No      | 2 x ₹35 = ₹70     | - [ ] |
 
 
 ### Step 2 - 3D Parts and bolts.
