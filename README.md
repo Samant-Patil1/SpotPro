@@ -54,6 +54,37 @@ Third, What I did, for the first steps, I will be using esp32, but, later, I wil
 | **RCWL-0516 Microwave Radar Sensor** | 2x | A motion detection sensor that uses **Doppler radar** instead of infrared, ideal for smart lighting and security systems.   | No      | 2 x ₹35 = ₹70     |
 
 
+OK, before everything, about the coding, 3d printing and all, let's make a list of all the electronics to check off, if I have it or not(updated on 29/3)
+- [ ] ESP32-S3 DevKitC-1 N8R8
+- [ ] NVIDIA JETSON NANO
+- [ ] Raspberry Pi 0W/3/4/5	
+- [ ] ARDUINO MEGA ORIGINAL	
+- [ ] PCA9685 Servo Controller	
+- [ ] MG996R Servo Motor	
+- [ ] LCD1602 16X2 Display	
+- [ ] 3.7V 2800mAh Battery	   
+- [ ] Rocker Switch	
+- [ ] SSD1306 0.96 inch Display	
+- [ ] RPi Camera Module	
+- [ ] ESP32 Camera Module	
+- [ ] HC-SR04 Ultrasonic Sensor	
+- [ ] MPU-6050 Gyro Sensor	
+- [ ] HC-05 Bluetooth Module	
+- [ ] PIR Motion Sensor	
+- [ ] RCWL-0516 Microwave Radar Sensor	
+- [ ] M5 x 15	
+- [ ] M4 x 20	
+- [ ] M4 x 15	
+- [ ] M4 nuts	
+- [ ] M3 x 20	
+- [ ] M3 x 10	  
+- [ ] M3 nuts	
+- [ ] F625ZZ Flange ball Bearings	
+
+
+
+
+
 ### Step 2 - 3D Parts and bolts.
 
 Fourthly, that's it! And then, we need the screws and the 3d printing parts:
@@ -68,7 +99,7 @@ Screws:
 | M3 x 10 |28|
 | M3 nuts |16|
 | F625ZZ Flange ball Bearings |8|
-Totally, they cot some 300-500 rupees.
+Totally, they cost some 300-500 rupees.
 
 
 3d Prints:
