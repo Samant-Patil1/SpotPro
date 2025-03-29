@@ -1,4 +1,8 @@
 # SPOTPRO
+This project is based on the original spot micro, which is known for its extreme stability, and wide range of tasks. It can perform duties from reconnaissance to weather reports, even military missions, and survey in places humans can't reach such as in a chemical disaster.The main aim, is 
+1. To first make it controllable on laptop or mobile
+2. To add AI into it, and make it perform long-range tasks all by itself, like, go to a particular area, and come back with artifacts, or even launch drones to make it reach the owner, with the artifacts.
+   Hence, it is a very smart tool for use during disasters, and wars, or maybe archaelogical adventures.
 ## 💀WORK IN PROGRESS💀
 
 ### References/Bibliography
@@ -24,7 +28,7 @@ But, if you are just like me, and do not trust the makes of the other users as w
 First, The reason many people edited the original stl files, is because they wanted to use the best ttechnology available- First it was 
 1. Arduino Mega, the original model
 2. and then RPi and NVIDIA Jetson Nano
-3. and then ESP32 series
+3. and then ESP32 series.
 Second, I thought of using my favorite *ESP32 S3 DEVKITC N8R8 1 BOARD*, but, it only has basic capability, like face recognition, server creation, 802.11, and BLE.(But still, overwhelmingly strong than most esp32, and arduino board, no, all arduino boards).
 Third, What I did, for the first steps, I will be using esp32, but, later, I will be using RPi 0/3/4/5 b+ for the AI and automated control part(much later on, patience) Why not Jetson Nano? Because I dont trust it. It would be the first time I will be using it. I will still be listing all the options in the below table. ALL THE CAPS-LOCKED ITEMS ARE OPTIONAL, AND NOT INCLUDED IN MY DESIGN.
 
@@ -50,6 +54,34 @@ Third, What I did, for the first steps, I will be using esp32, but, later, I wil
 | **RCWL-0516 Microwave Radar Sensor** | 2x | A motion detection sensor that uses **Doppler radar** instead of infrared, ideal for smart lighting and security systems.   | No      | 2 x ₹35 = ₹70     |
 
 
+OK, before everything, about the coding, 3d printing and all, let's make a list of all the electronics to check off, if I have it or not(updated on 29/3)
+- [x] ESP32-S3 DevKitC-1 N8R8
+- [ ] NVIDIA JETSON NANO
+- [ ] Raspberry Pi 0W/3/4/5	
+- [ ] ARDUINO MEGA ORIGINAL	
+- [x] PCA9685 Servo Controller	
+- [x] MG995 Servo Motor	
+- [x] LCD1602 16X2 Display	
+- [x] 3.7V 2200mAh Battery	   
+- [x] Rocker Switch	
+- [ ] RPi Camera Module	
+- [ ] ESP32 Camera Module	
+- [x] HC-SR04 Ultrasonic Sensor	
+- [ ] MPU-6050 Gyro Sensor	
+- [x] RCWL-0516 Microwave Radar Sensor	
+- [x] M5 x 15	
+- [x] M4 x 20	
+- [x] M4 x 15	
+- [x] M4 nuts	
+- [x] M3 x 20	
+- [x] M3 x 10	  
+- [x] M3 nuts	
+- [x] F625ZZ Flange ball Bearings	
+
+
+
+
+
 ### Step 2 - 3D Parts and bolts.
 
 Fourthly, that's it! And then, we need the screws and the 3d printing parts:
@@ -57,14 +89,14 @@ Screws:
 |Type      |Quantity      |
 |----------|--------------|
 | M5 x 15 |8|
-| M4 x 15 |40|
+| M4 x 20 |40|
 | M4 x 15 |8|
-| M4 x 15 |48|
-| M3 x 15 |4|
-| M3 x 15 |28|
-| M3 x 15 |16|
+| M4 nuts |48|
+| M3 x 20 |4|
+| M3 x 10 |28|
+| M3 nuts |16|
 | F625ZZ Flange ball Bearings |8|
-Totally, they cot some 500 rupees.
+Totally, they cost some 300-500 rupees.
 
 
 3d Prints:
@@ -80,6 +112,12 @@ Totally, they cot some 500 rupees.
 | Headquarters |1|
 | Computer Slab |1|
 
+
+The total size of the body turns out to be about 32cm(length) x 1ocm(width) x 7cm(height)
+the total size of each fully straight leg turns out to be about 5cm(length) x 3cm(width) x 30cm(height)
+Total robot size, when robot is at ease, in their original positions: 22cm(height) x 30cm(length) x 22cm(width)
+Approximately, it will take 7-9 days to print all items, assuming all are left 24/7 no, 24/9. It consumes 300metres of 1.75mm filament, approx
+1 whole spool of prusament 1kg pla will be used, and prolly 1.25...
 
 ### Step 3 - Code
 Pending...
