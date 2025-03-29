@@ -55,31 +55,28 @@ Third, What I did, for the first steps, I will be using esp32, but, later, I wil
 
 
 OK, before everything, about the coding, 3d printing and all, let's make a list of all the electronics to check off, if I have it or not(updated on 29/3)
-- [ ] ESP32-S3 DevKitC-1 N8R8
+- [x] ESP32-S3 DevKitC-1 N8R8
 - [ ] NVIDIA JETSON NANO
 - [ ] Raspberry Pi 0W/3/4/5	
 - [ ] ARDUINO MEGA ORIGINAL	
-- [ ] PCA9685 Servo Controller	
-- [ ] MG996R Servo Motor	
-- [ ] LCD1602 16X2 Display	
-- [ ] 3.7V 2800mAh Battery	   
-- [ ] Rocker Switch	
-- [ ] SSD1306 0.96 inch Display	
+- [x] PCA9685 Servo Controller	
+- [x] MG995 Servo Motor	
+- [x] LCD1602 16X2 Display	
+- [x] 3.7V 2200mAh Battery	   
+- [x] Rocker Switch	
 - [ ] RPi Camera Module	
 - [ ] ESP32 Camera Module	
-- [ ] HC-SR04 Ultrasonic Sensor	
+- [x] HC-SR04 Ultrasonic Sensor	
 - [ ] MPU-6050 Gyro Sensor	
-- [ ] HC-05 Bluetooth Module	
-- [ ] PIR Motion Sensor	
-- [ ] RCWL-0516 Microwave Radar Sensor	
-- [ ] M5 x 15	
-- [ ] M4 x 20	
-- [ ] M4 x 15	
-- [ ] M4 nuts	
-- [ ] M3 x 20	
-- [ ] M3 x 10	  
-- [ ] M3 nuts	
-- [ ] F625ZZ Flange ball Bearings	
+- [x] RCWL-0516 Microwave Radar Sensor	
+- [x] M5 x 15	
+- [x] M4 x 20	
+- [x] M4 x 15	
+- [x] M4 nuts	
+- [x] M3 x 20	
+- [x] M3 x 10	  
+- [x] M3 nuts	
+- [x] F625ZZ Flange ball Bearings	
 
 
 
