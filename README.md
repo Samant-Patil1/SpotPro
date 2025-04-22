@@ -121,3 +121,8 @@ Approximately, it will take 7-9 days to print all items, assuming all are left 2
 
 ### Step 3 - Code
 Pending...
+
+
+
+### Progress:
+15/3 - 22/4 -> sososoosososo, I completed the mase muscles and skeleton of the robot, I had a little spuerglue problem with the rear right leg, so, I had to print another one shoulder. Rn, I created the coding checklist of the whole project. soo...... check the assembly folder for the printing pictures, and the robot look rn! Also, check out /main folder, to find the checklist...I will be usinf rpi first, and then, esp32 s3(or, what about collaboration of both?!)
