@@ -25,7 +25,7 @@
   </collision>
 </link>
 
-<link name="LH_FOOT_1">
+<link name="Back_left_forearm_1">
   <inertial>
     <origin xyz="-0.02387677244019979 0.02681764636693125 -0.014730802536600973" rpy="0 0 0"/>
     <mass value="0.49369135494533783"/>
@@ -34,19 +34,19 @@
   <visual>
     <origin xyz="-0.074761 -0.011235 -0.317307" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://Assembly_For_Simulation_description/meshes/LH_FOOT_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://Assembly_For_Simulation_description/meshes/Back_left_forearm_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.074761 -0.011235 -0.317307" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://Assembly_For_Simulation_description/meshes/LH_FOOT_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://Assembly_For_Simulation_description/meshes/Back_left_forearm_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="RH_FOOT_1">
+<link name="Back_right_forearm_1">
   <inertial>
     <origin xyz="0.027613181105729107 0.027492504385563943 -0.014145746962176853" rpy="0 0 0"/>
     <mass value="0.4997350884581435"/>
@@ -55,19 +55,19 @@
   <visual>
     <origin xyz="-0.220832 -0.007695 -0.315254" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://Assembly_For_Simulation_description/meshes/RH_FOOT_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://Assembly_For_Simulation_description/meshes/Back_right_forearm_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.220832 -0.007695 -0.315254" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://Assembly_For_Simulation_description/meshes/RH_FOOT_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://Assembly_For_Simulation_description/meshes/Back_right_forearm_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="RF_FOOT_1">
+<link name="Front_right_forearm_1">
   <inertial>
     <origin xyz="0.028280901609207154 0.03063734624089054 -0.014033926018012455" rpy="0 0 0"/>
     <mass value="0.49985914540184717"/>
@@ -76,19 +76,19 @@
   <visual>
     <origin xyz="-0.219953 -0.188311 -0.315701" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://Assembly_For_Simulation_description/meshes/RF_FOOT_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://Assembly_For_Simulation_description/meshes/Front_right_forearm_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.219953 -0.188311 -0.315701" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://Assembly_For_Simulation_description/meshes/RF_FOOT_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://Assembly_For_Simulation_description/meshes/Front_right_forearm_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="LF_FOOT_1">
+<link name="Front_left_forearm_1">
   <inertial>
     <origin xyz="-0.027057224103647512 0.03285362638972403 -0.0179332893641046" rpy="0 0 0"/>
     <mass value="0.4907857835923385"/>
@@ -97,14 +97,14 @@
   <visual>
     <origin xyz="-0.0789 -0.186175 -0.321641" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://Assembly_For_Simulation_description/meshes/LF_FOOT_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://Assembly_For_Simulation_description/meshes/Front_left_forearm_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.0789 -0.186175 -0.321641" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://Assembly_For_Simulation_description/meshes/LF_FOOT_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://Assembly_For_Simulation_description/meshes/Front_left_forearm_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -277,39 +277,39 @@
   </collision>
 </link>
 
-<joint name="BL_calf_joint" type="revolute">
+<joint name="Revolute 24" type="revolute">
   <origin xyz="-0.007078 -0.051761 -0.089937" rpy="0 0 0"/>
   <parent link="Back_left_upperarm_1"/>
-  <child link="LH_FOOT_1"/>
+  <child link="Back_left_forearm_1"/>
   <axis xyz="1.0 -0.000123 5e-05"/>
   <limit upper="0.785398" lower="-3.141593" effort="100" velocity="100"/>
 </joint>
 
-<joint name="BR_calf_joint" type="revolute">
+<joint name="Revolute 25" type="revolute">
   <origin xyz="0.002438 -0.05219 -0.092366" rpy="0 0 0"/>
   <parent link="Back_right_upperarm_1"/>
-  <child link="RH_FOOT_1"/>
+  <child link="Back_right_forearm_1"/>
   <axis xyz="-1.0 6.2e-05 -0.0"/>
   <limit upper="3.141593" lower="-0.785398" effort="100" velocity="100"/>
 </joint>
 
-<joint name="FR_calf_joint" type="revolute">
+<joint name="Revolute 26" type="revolute">
   <origin xyz="0.002862 -0.052497 -0.092075" rpy="0 0 0"/>
   <parent link="Front_right_upperarm_1"/>
-  <child link="RF_FOOT_1"/>
+  <child link="Front_right_forearm_1"/>
   <axis xyz="-1.0 6.2e-05 -0.0"/>
   <limit upper="3.141593" lower="-0.785398" effort="100" velocity="100"/>
 </joint>
 
-<joint name="FL_calf_joint" type="revolute">
+<joint name="Revolute 27" type="revolute">
   <origin xyz="-0.004287 -0.05781 -0.085759" rpy="0 0 0"/>
   <parent link="Front_left_upperarm_1"/>
-  <child link="LF_FOOT_1"/>
+  <child link="Front_left_forearm_1"/>
   <axis xyz="-1.0 0.000121 -5.2e-05"/>
   <limit upper="3.141593" lower="-0.785398" effort="100" velocity="100"/>
 </joint>
 
-<joint name="FL_thigh_joint" type="revolute">
+<joint name="Revolute 28" type="revolute">
   <origin xyz="-0.028042 -0.025573 -0.011445" rpy="0 0 0"/>
   <parent link="Front_left_shoulder_1"/>
   <child link="Front_left_upperarm_1"/>
@@ -317,7 +317,7 @@
   <limit upper="1.570796" lower="-2.96706" effort="100" velocity="100"/>
 </joint>
 
-<joint name="BL_thigh_joint" type="revolute">
+<joint name="Revolute 29" type="revolute">
   <origin xyz="-0.028727 -0.020217 -0.011601" rpy="0 0 0"/>
   <parent link="Back_left_shoulder_1"/>
   <child link="Back_left_upperarm_1"/>
@@ -325,7 +325,7 @@
   <limit upper="1.570796" lower="-2.96706" effort="100" velocity="100"/>
 </joint>
 
-<joint name="BR_thigh_joint" type="revolute">
+<joint name="Revolute 30" type="revolute">
   <origin xyz="0.028385 -0.023328 -0.011225" rpy="0 0 0"/>
   <parent link="Back_right_shoulder_1"/>
   <child link="Back_right_upperarm_1"/>
@@ -333,7 +333,7 @@
   <limit upper="1.570796" lower="-2.96706" effort="100" velocity="100"/>
 </joint>
 
-<joint name="FR_thigh_joint" type="revolute">
+<joint name="Revolute 31" type="revolute">
   <origin xyz="0.027745 -0.02875 -0.011069" rpy="0 0 0"/>
   <parent link="Front_right_shoulder_1"/>
   <child link="Front_right_upperarm_1"/>
@@ -341,7 +341,7 @@
   <limit upper="1.570796" lower="-2.96706" effort="100" velocity="100"/>
 </joint>
 
-<joint name="FL_hip_joint" type="revolute">
+<joint name="Revolute 32" type="revolute">
   <origin xyz="0.111229 0.269558 0.418845" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="Front_left_shoulder_1"/>
@@ -349,7 +349,7 @@
   <limit upper="1.22173" lower="-1.047198" effort="100" velocity="100"/>
 </joint>
 
-<joint name="BL_hip_joint" type="revolute">
+<joint name="Revolute 33" type="revolute">
   <origin xyz="0.110566 0.083213 0.418845" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="Back_left_shoulder_1"/>
@@ -357,7 +357,7 @@
   <limit upper="1.22173" lower="-1.047198" effort="100" velocity="100"/>
 </joint>
 
-<joint name="FR_hip_joint" type="revolute">
+<joint name="Revolute 34" type="revolute">
   <origin xyz="0.189346 0.269558 0.418845" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="Front_right_shoulder_1"/>
@@ -365,7 +365,7 @@
   <limit upper="1.047198" lower="-1.22173" effort="100" velocity="100"/>
 </joint>
 
-<joint name="BR_hip_joint" type="revolute">
+<joint name="Revolute 35" type="revolute">
   <origin xyz="0.190009 0.083213 0.418845" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="Back_right_shoulder_1"/>

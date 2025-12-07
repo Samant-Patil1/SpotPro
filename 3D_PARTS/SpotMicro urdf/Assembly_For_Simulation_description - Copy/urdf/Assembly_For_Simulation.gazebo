@@ -14,28 +14,28 @@
   <gravity>true</gravity>
 </gazebo>
 
-<gazebo reference="LH_FOOT_1">
+<gazebo reference="Back_left_forearm_1">
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
   <selfCollide>true</selfCollide>
 </gazebo>
 
-<gazebo reference="RH_FOOT_1">
+<gazebo reference="Back_right_forearm_1">
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
   <selfCollide>true</selfCollide>
 </gazebo>
 
-<gazebo reference="RF_FOOT_1">
+<gazebo reference="Front_right_forearm_1">
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
   <selfCollide>true</selfCollide>
 </gazebo>
 
-<gazebo reference="LF_FOOT_1">
+<gazebo reference="Front_left_forearm_1">
   <material>${body_color}</material>
   <mu1>0.2</mu1>
   <mu2>0.2</mu2>
